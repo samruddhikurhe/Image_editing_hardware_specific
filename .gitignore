@@ -1,0 +1,29 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / OS
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Data, cache, outputs
+data/
+data/cache/
+*.sqlite3
+
+# Secrets / env
+.env
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db

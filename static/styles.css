@@ -1,0 +1,20 @@
+/* static/styles.css */
+body { font-family: Arial, sans-serif; margin: 16px; }
+#viewer { margin-top: 12px; }
+#imageWrap { width: 80vw; height: 60vh; border: 1px solid #ddd; overflow: hidden; display:flex; align-items:center; justify-content:center; background:#f7f7f7; position:relative; touch-action: none; }
+#imageWrap img { max-width:none; max-height:none; transition: transform 0.08s ease-out; transform-origin: center center; will-change: transform; }
+#controls { margin-bottom: 8px; }
+#filters { margin-top: 10px; }
+label { display:inline-block; margin-right: 12px; }
+.spinner {
+  width: 48px; height: 48px; border-radius: 50%;
+  border: 4px solid rgba(0,0,0,0.08);
+  border-top-color: #0b84ff;
+  animation: spin 1s linear infinite;
+  position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+#zoomControls { margin-top: 8px; }
+#zoomControls button { margin-right:6px; padding:6px 10px; font-size:16px; }
+#zoomLevel { margin-left:8px; font-weight:600; }
