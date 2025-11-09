@@ -1,0 +1,1 @@
+# Image_editing_hardware_specific
