@@ -1,4 +1,3 @@
-// static/main.js
 document.addEventListener("DOMContentLoaded", () => {
   const startBtn = document.getElementById("startBtn");
   const rawPathInput = document.getElementById("rawPath");
